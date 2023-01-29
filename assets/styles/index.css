@@ -1,0 +1,11 @@
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.about-me{
+    background-color: sienna;
+    padding: 20px;
+    border-radius: 40px;
+    display: grid;
+    gap: 20px;
+}
