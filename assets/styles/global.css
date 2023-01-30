@@ -44,6 +44,16 @@ body{
 .header-menu > a:hover{
     color: aqua;
 }
+
+.title::after{
+content: "" ;
+width: 100px;
+height: 6px;
+display: block;
+background-color: saddlebrown;
+border-radius: 40px;
+
+}
 @media (min-width: 1100px) {
     .container{
         width: 50%;

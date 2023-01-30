@@ -9,3 +9,25 @@
     display: grid;
     gap: 20px;
 }
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 30px;
+    flex-wrap: wrap;
+}
+.skills-container > div{
+    background-color: burlywood;
+    border: 5px saddlebrown;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 7px 10px; color: black; 
+    max-width: 140px;
+    min-width: 130px;
+}
+
+.skills-container > div > ul {
+    margin-left:  30px;
+    list-style: circle;
+
+}
