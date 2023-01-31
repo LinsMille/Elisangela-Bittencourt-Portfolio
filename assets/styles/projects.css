@@ -1,0 +1,49 @@
+.project-image{
+    width: 100%;
+    
+}
+.content-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.project-technologies{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    text-transform: uppercase;
+}
+.project-technologies > li{
+    background-color: #f07777;
+    padding: 0 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.project-info {
+    display: grid;
+    gap: 15px;
+}
+
+.project-description{
+    max-height: 160px;
+    min-height: 160px;
+    overflow-y: auto;
+}
+
+.button-link{
+    background-color: #4b6cc1;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.action-container{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.project-image-container{
+    align-self: center;

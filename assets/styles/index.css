@@ -29,5 +29,7 @@
 .skills-container > div > ul {
     margin-left:  30px;
     list-style: circle;
-
+}
+.skills-container > div > ul > li {
+    text-transform: capitalize;
 }
